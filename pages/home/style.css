@@ -31,6 +31,9 @@ ul{
     display: flex;
     align-items: center;
 }
+.logo__img{
+    margin-right: 5px;
+}
 
 .nav__list{
     display: flex;
@@ -110,7 +113,9 @@ main{
     flex-direction: column;
     margin-right: 30px;
 }
-
+.card{
+    height: 350px;
+}
 .disc__like{
     display: flex;
     justify-content: space-between;
@@ -124,10 +129,6 @@ main{
     font-weight: 700;
 }
 .text__adress{
-    color: #C4C4C4;
-    font-weight: 400;
-}
-.text__date{
     color: #C4C4C4;
     font-weight: 400;
 }
