@@ -2,4 +2,57 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 .container{
     max-width: 1146px;
+    margin: auto;
+}
+*{
+    font-family: Roboto;
+    color: #0A143A;
+    box-sizing: border-box;
+    
+    
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.header__nav{
+    display: flex;
+    align-items: center;
+}
+.nav__logo{
+    display: flex;
+    align-items: center;
+}
+
+.nav__list{
+    display: flex;
+}
+.header__account{
+    display: flex;
+    align-items: center;
+}
+.list__items{
+    margin-right: 7px;
+}
+.list__items:last-child{
+    margin-right: 7px;
+}
+.giveAd__btn{
+    color: #fff;
+    background-color: #256EEB;
+    width: 170px;
+    height: 36px;
+    border-radius: 5px;
+    border: none;
+}
+.account__logReg{
+    margin-right: 25px;
 }
