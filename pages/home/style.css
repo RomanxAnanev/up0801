@@ -42,6 +42,9 @@ ul{
 .list__items{
     margin-right: 14px;
 }
+.list__items a:hover{
+    text-decoration: underline;
+}
 .list__items:last-child{
     margin-right: 0px;
 }
@@ -88,4 +91,43 @@ ul{
 .search__btn a{
     color: #fff;
     margin-left: 5px;
+}
+main{
+    margin-top: 42px;
+}
+.content__columnsCards{
+    display: flex;
+
+}
+
+.columnsCards__fst{
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+.columnsCards__scnd{
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+
+.disc__like{
+    display: flex;
+    justify-content: space-between;
+}
+.disc__like p{
+    margin: 5px;
+    font-weight: 700;
+    color: #256EEB;
+}
+.text__price{
+    font-weight: 700;
+}
+.text__adress{
+    color: #C4C4C4;
+    font-weight: 400;
+}
+.text__date{
+    color: #C4C4C4;
+    font-weight: 400;
 }
