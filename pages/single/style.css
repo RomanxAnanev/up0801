@@ -1,0 +1,19 @@
+@import url(/assetes/css/normolize.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+.container{
+    max-width: 1146px;
+    margin: auto;
+}
+*{
+    font-family: Roboto;
+    color: #0A143A;
+    box-sizing: border-box;
+    
+    
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
