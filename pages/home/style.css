@@ -163,3 +163,6 @@ main{
 .footer__nav ul{
     padding: 0px;
 }
+.footer__menu hr{
+    margin-top: 29px;
+}
