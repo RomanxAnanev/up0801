@@ -8,7 +8,8 @@
     font-family: Roboto;
     color: #0A143A;
     box-sizing: border-box;
-    
+    padding: 0;
+    margin: 0;
     
 }
 a{
@@ -30,6 +31,7 @@ ul{
 .nav__logo{
     display: flex;
     align-items: center;
+    margin-right: 20px;
 }
 .logo__img{
     margin-right: 5px;
@@ -37,10 +39,12 @@ ul{
 
 .nav__list{
     display: flex;
+    font-size: 14px;
 }
 .header__account{
     display: flex;
     align-items: center;
+    font-size: 14px;
 }
 .list__items{
     margin-right: 14px;
@@ -54,7 +58,7 @@ ul{
 .giveAd__btn{
     color: #fff;
     background-color: #256EEB;
-    width: 180px;
+    width: 160px;
     height: 36px;
     border-radius: 5px;
     border: none;
@@ -74,11 +78,18 @@ ul{
     margin-top: 24px;
     display: flex;
     align-items: center;
+    font-size: 16px;
 }
 .search__input{
     align-items: center;
     margin: auto;
+    
 
+}
+input::placeholder{
+    font-size: 14px;
+    padding-left: 20px;
+    
 }
 .search__input input{
     height: 44px;
@@ -102,36 +113,46 @@ main{
     display: flex;
 
 }
-
+.main__content h2{
+    margin-bottom: 20px;
+    font-size: 24px;
+}
 .columnsCards__fst{
     display: flex;
     flex-direction: column;
     margin-right: 30px;
 }
+
 .columnsCards__scnd{
     display: flex;
     flex-direction: column;
     margin-right: 30px;
 }
 .card{
-    height: 350px;
+    height: 298px;
 }
 .disc__like{
     display: flex;
     justify-content: space-between;
 }
 .disc__like p{
-    margin: 5px;
     font-weight: 700;
     color: #256EEB;
 }
+.text__heading{
+    font-size: 16px;
+    margin-top: 12px;
+    margin-bottom: 5px;
+}
 .text__price{
     font-weight: 700;
-    margin: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
 }
 .text__adress{
     color: #C4C4C4;
     font-weight: 400;
+    font-size: 14px;
 }
 .main{
     display: flex;
@@ -139,6 +160,17 @@ main{
 .footer{
     margin-left: 30px;
 }
+.footer h3{
+    margin-bottom: 23px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.footer__menu {
+font-size: 14px;
+max-width: 376px;
+}
+
+
 .menu__delivery{
     margin-bottom: 25px;
 }
@@ -154,15 +186,31 @@ main{
     margin-block-start: 0.5em;
     margin-block-end: 0.5em;
 }
+.menu__onlinebooking{
+    margin-bottom: 37px;
+}
 .footer__disc a{
     color: #C4C4C4;
+    font-size: 14px;
+}
+.footer__disc{
+    margin-top: 18px;
 }
 .footer__disc a:hover{
     text-decoration: underline;
 }
 .footer__nav ul{
     padding: 0px;
+    display: flex;
+    flex-direction: column;
+}
+.footer__nav ul :first-child{
+margin-top: 16px;
 }
 .footer__menu hr{
     margin-top: 29px;
+}
+.list__item{
+    margin-bottom: 5px;
+    font-size: 12px;
 }
