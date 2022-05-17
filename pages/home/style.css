@@ -54,7 +54,7 @@ ul{
 .giveAd__btn{
     color: #fff;
     background-color: #256EEB;
-    width: 170px;
+    width: 180px;
     height: 36px;
     border-radius: 5px;
     border: none;
@@ -127,8 +127,39 @@ main{
 }
 .text__price{
     font-weight: 700;
+    margin: 5px;
 }
 .text__adress{
     color: #C4C4C4;
     font-weight: 400;
+}
+.main{
+    display: flex;
+}
+.footer{
+    margin-left: 30px;
+}
+.menu__delivery{
+    margin-bottom: 25px;
+}
+.menu__autocar{
+    margin-bottom: 25px;
+}
+
+.text h4{
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+}
+.text p{
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+}
+.footer__disc a{
+    color: #C4C4C4;
+}
+.footer__disc a:hover{
+    text-decoration: underline;
+}
+.footer__nav ul{
+    padding: 0px;
 }
